@@ -144,7 +144,7 @@ public class IAscript : MonoBehaviour
         if (_distanceToPlayer <= visionRange && _angleToPlayer <visionAngle * 0.5f)
         {
             //return true;
-            if(_playerTransform.position == _lastTargtPosition)
+            if(_playerTransform.position == _lastTargtPosition.y)
             {
                 return true;
             }
